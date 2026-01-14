@@ -7,9 +7,49 @@
 
 header{
     background-color: #FFF8F3;
+    padding-top: 50px;
 }
 
 .font-open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
+}
+
+nav{
+    width: 72%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo h2{
+    font-size:45px;
+    font-weight: 900px;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 50px;
+    text-align: justify;
+    text-decoration: none;
+    align-items: center;
+}
+nav .menu a{
+    text-decoration: none;
+    color: #474747;
+    
+}
+
+.Btn{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    
 }
